@@ -1,0 +1,145 @@
+﻿@page
+@model LoginModel
+@{
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+    ViewData["Title"] = "Log in";
+}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #6D83F2, #F25E73);
+    }
+
+    .login-container {
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+
+    .login-header {
+        background-color: #6D83F2;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .login-form {
+        padding: 40px;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+        position: relative;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #f9f9f9;
+        transition: all 0.3s;
+    }
+
+    .form-group input:focus {
+        border-color: #6D83F2;
+        background: #fff;
+    }
+
+    .form-group label {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        background: white;
+        padding: 0 5px;
+        color: #888;
+        transition: all 0.3s;
+        pointer-events: none;
+    }
+
+    .form-group input:focus + label {
+        top: 5px;
+        font-size: 0.75rem;
+        color: #6D83F2;
+    }
+
+    .checkbox label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .checkbox input {
+        accent-color: #6D83F2;
+    }
+
+    .submit-btn {
+        width: 100%;
+        background: #F25E73;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .submit-btn:hover {
+        background: #C94C5E;
+    }
+
+    .error-text {
+        color: #F25E73;
+        font-size: 0.85rem;
+        margin-top: 5px;
+    }
+</style>
+
+@section RegisterContent {
+    <div class="login-container">
+        <div class="login-header">
+            Log In
+        </div>
+        <form class="login-form" id="loginForm" method="post">
+            <div asp-validation-summary="ModelOnly" class="error-text" role="alert"></div>
+
+            <div class="form-group">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" placeholder=" " />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="error-text"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" type="password" placeholder=" " />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="error-text"></span>
+            </div>
+
+            <div class="checkbox mb-3">
+                <label asp-for="Input.RememberMe">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    Remember Me
+                </label>
+            </div>
+
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

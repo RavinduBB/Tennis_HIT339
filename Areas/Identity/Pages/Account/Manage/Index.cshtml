@@ -1,0 +1,74 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Manage your account";
+}
+ 
+
+<div>
+    <h4>Profile</h4>
+    <hr />
+    <form method="post" enctype="multipart/form-data">
+        <dl class="row">
+            <dt class="col-sm-2">
+                Username
+            </dt>
+            <dd class="col-sm-10">
+                @Model.Username
+            </dd>
+            <dt class="col-sm-2">
+                Role
+            </dt>
+            <dd class="col-sm-10">
+                @Model.UserRole
+            </dd>
+            @if (Model.UserRole == "Coach")
+            {
+                <dt class="col-sm-2">
+                    Coach Name
+                </dt>
+                <dd class="col-sm-10">
+                    <input asp-for="Input.CoachFirstName" class="form-control" />
+                    <input asp-for="Input.CoachLastName" class="form-control" />
+                </dd>
+                <dt class="col-sm-2">
+                    Biography
+                </dt>
+                <dd class="col-sm-10">
+                    <textarea asp-for="Input.Biography" class="form-control"></textarea>
+                </dd>
+                <dt class="col-sm-2">
+                    Current Photo
+                </dt>
+                <dd class="col-sm-10">
+                    @if (!string.IsNullOrEmpty(Model.CoachPhoto))
+                    {
+                        <img src="@Model.CoachPhoto" alt="Coach Photo" style="max-width: 200px;" />
+                    }
+                </dd>
+                <dt class="col-sm-2">
+                    Upload New Photo
+                </dt>
+                <dd class="col-sm-10">
+                    <input asp-for="Input.PhotoUpload" class="form-control" type="file" />
+                    <span asp-validation-for="Input.PhotoUpload" class="text-danger"></span>
+                </dd>
+            }
+            else if (Model.UserRole == "Member")
+            {
+                <dt class="col-sm-2">
+                    Member Name
+                </dt>
+                <dd class="col-sm-10">
+                    <input asp-for="Input.MemberFirstName" class="form-control" />
+                    <input asp-for="Input.MemberLastName" class="form-control" />
+                </dd>
+            }
+        </dl>
+        <button type="submit" class="btn btn-primary">Save Info</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
