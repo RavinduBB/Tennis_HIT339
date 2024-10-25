@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HIT\\AnyoneForTennis\\AnyoneForTennis.csproj": {}
+    "C:\\Users\\IHK\\OneDrive\\Documents\\GitHub\\Tennis_HIT339\\AnyoneForTennis.csproj": {}
   },
   "projects": {
-    "D:\\HIT\\AnyoneForTennis\\AnyoneForTennis.csproj": {
+    "C:\\Users\\IHK\\OneDrive\\Documents\\GitHub\\Tennis_HIT339\\AnyoneForTennis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HIT\\AnyoneForTennis\\AnyoneForTennis.csproj",
+        "projectUniqueName": "C:\\Users\\IHK\\OneDrive\\Documents\\GitHub\\Tennis_HIT339\\AnyoneForTennis.csproj",
         "projectName": "AnyoneForTennis",
-        "projectPath": "D:\\HIT\\AnyoneForTennis\\AnyoneForTennis.csproj",
+        "projectPath": "C:\\Users\\IHK\\OneDrive\\Documents\\GitHub\\Tennis_HIT339\\AnyoneForTennis.csproj",
         "packagesPath": "C:\\Users\\IHK\\.nuget\\packages\\",
-        "outputPath": "D:\\HIT\\AnyoneForTennis\\obj\\",
+        "outputPath": "C:\\Users\\IHK\\OneDrive\\Documents\\GitHub\\Tennis_HIT339\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IHK\\AppData\\Roaming\\NuGet\\NuGet.Config",

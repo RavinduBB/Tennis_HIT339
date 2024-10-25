@@ -17,151 +17,151 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AnyoneForTennis
 build_property.RootNamespace = AnyoneForTennis
-build_property.ProjectDir = D:\HIT\AnyoneForTennis\
+build_property.ProjectDir = C:\Users\IHK\OneDrive\Documents\GitHub\Tennis_HIT339\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HIT\AnyoneForTennis
+build_property.MSBuildProjectDirectory = C:\Users\IHK\OneDrive\Documents\GitHub\Tennis_HIT339
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Admin/AssignCoach.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Admin/AssignCoach.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXNzaWduQ29hY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Admin/CreateSchedule.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Admin/CreateSchedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlU2NoZWR1bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Admin/Details.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Admin/Edit.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Admin/Index.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Admin/ViewMembers.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Admin/ViewMembers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld01lbWJlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Coach/EnrolledMembers.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Coach/EnrolledMembers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hcRW5yb2xsZWRNZW1iZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Coach/MySchedules.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Coach/MySchedules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hcTXlTY2hlZHVsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Home/Index.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Home/Privacy.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Member/Coaches.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Member/Coaches.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENvYWNoZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Member/CoachProfile.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Member/CoachProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENvYWNoUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Member/Enroll.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Member/Enroll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEVucm9sbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Member/MySchedules.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Member/MySchedules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXE15U2NoZWR1bGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Member/ScheduleDetails.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Member/ScheduleDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFNjaGVkdWxlRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Shared/Error.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Shared/_AuthLayout.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Shared/_AuthLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/_ViewImports.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/_ViewStart.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HIT/AnyoneForTennis/Views/Shared/_Layout.cshtml]
+[C:/Users/IHK/OneDrive/Documents/GitHub/Tennis_HIT339/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2jjxxz8kws
