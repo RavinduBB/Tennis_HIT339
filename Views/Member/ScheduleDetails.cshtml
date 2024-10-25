@@ -1,0 +1,85 @@
+﻿@model Schedule
+
+@{
+    ViewData["Title"] = "Schedule Details";
+}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f7f9fc;
+        margin: 20px;
+    }
+
+    h2 {
+        color: white;
+        margin-bottom: 20px;
+        background: linear-gradient(135deg, #6D83F2, #F25E73);
+        padding: 10px;
+        border-radius: 5px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .details-container {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    a {
+        color: #6D83F2;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #F25E73;
+        text-decoration: underline;
+    }
+
+    .back-link {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        color: #6D83F2;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .back-link:hover {
+        text-decoration: underline;
+        color: #F25E73;
+    }
+</style>
+
+<div class="details-container">
+    <h2>Schedule Details</h2>
+    <h3>@Model.Name</h3>
+    <p><strong>Date:</strong> @Model.Date.ToShortDateString()</p>
+    <p><strong>Location:</strong> @Model.Location</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p>
+        <strong>Coach:</strong>
+        <a asp-action="CoachProfile" asp-route-id="@Model.Coach.CoachId">
+            @Model.Coach.FirstName @Model.Coach.LastName
+        </a>
+    </p>
+</div>
+
+<div>
+    <a class="back-link" asp-action="MySchedules">Back to My Schedules</a>
+</div>
