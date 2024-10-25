@@ -1,0 +1,141 @@
+﻿@model List<ScheduleViewModel>
+
+@{
+    ViewData["Title"] = "Assign Coach";
+}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f7f9fc;
+        margin: 20px;
+    }
+
+    h1 {
+        color: white;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(135deg, #6D83F2, #F25E73);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    h4 {
+        color: #333;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        background: white;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .table th, .table td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table thead {
+        background: linear-gradient(135deg, #6D83F2, #F25E73);
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .form-control {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        transition: border-color 0.3s;
+    }
+
+    .form-control:focus {
+        border-color: #6D83F2;
+        outline: none;
+        box-shadow: 0 0 5px rgba(109, 131, 242, 0.5);
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #6D83F2, #F25E73);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .btn-primary:hover {
+        opacity: 0.9;
+        transform: scale(1.05);
+    }
+
+    .back-link {
+        text-decoration: none;
+        color: #6D83F2;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .back-link:hover {
+        text-decoration: underline;
+        color: #F25E73;
+    }
+</style>
+
+<h1>Assign Coach</h1>
+
+<h4>Upcoming Schedules</h4>
+<hr />
+<form asp-action="AssignCoach" method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Schedule Name</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Current Coach</th>
+                <th>New Coach</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@Model[i].Name</td>
+                    <td>@Model[i].Location</td>
+                    <td>@Model[i].Date.ToString("MM/dd/yyyy")</td>
+                    <td>@Model[i].CoachName</td>
+                    <td>
+                        <select name="coachId" class="form-control">
+                            <option value="">Select Coach</option>
+                            @foreach (var coach in (SelectList)ViewBag.Coaches)
+                            {
+                                <option value="@coach.Value">@coach.Text</option>
+                            }
+                        </select>
+                    </td>
+                    <td>
+                        <input type="hidden" name="scheduleId" value="@Model[i].ScheduleId" />
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+
+<div>
+    <a class="back-link" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

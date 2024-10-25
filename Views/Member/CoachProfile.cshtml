@@ -1,0 +1,73 @@
+﻿@model AnyoneForTennis.Models.Coach
+
+@{
+    ViewData["Title"] = "Coach Profile";
+}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f7f9fc;
+        margin: 20px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        color: #4CAF50;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: center;
+        color: #555;
+    }
+
+    img {
+        max-width: 300px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile-container {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 0 auto; /* Centering the container */
+    }
+
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: #6D83F2;
+        font-weight: bold;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .back-link:hover {
+        color: #F25E73;
+    }
+</style>
+
+<div class="profile-container">
+    <h2>Coach Profile</h2>
+    <h3>@Model.FirstName @Model.LastName</h3>
+    <p>@Model.Biography</p>
+    <img src="@Model.Photo" alt="Image of Coach" />
+    <a class="back-link" asp-action="Index">Back to Coaches List</a>
+</div>
